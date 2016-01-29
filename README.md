@@ -1,3 +1,3 @@
 # lp-data-visualization
 
--Code challenge
+Vadio code challenge
