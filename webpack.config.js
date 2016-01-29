@@ -5,18 +5,18 @@ var pathToReactDom = path.resolve(node_modules, 'react/lib/ReactDOM');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 var config = {
-      entry: [
-      'webpack/hot/dev-server',
-      'webpack-dev-server/client?http://localhost:3000',
-      path.resolve(__dirname, 'app/js/main.js')
-    ],
+  entry: [
+  'webpack/hot/dev-server',
+  'webpack-dev-server/client?http://localhost:3000',
+  path.resolve(__dirname, 'app/js/main.js')
+	],
   resolve: {
   	alias: {
   		'react': pathToReact,
   		'react-dom': pathToReactDom
 
   	}
-  },
+		  },
   output: {
     path: path.resolve(__dirname, 'build'),
     filename: 'bundle.js'

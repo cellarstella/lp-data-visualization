@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "NODE_ENV=production ./node_modules/webpack/bin/webpack.js --progress --profile --colors",
-    "watch": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js --hot --inline --content-base build --port 3000"
+    "watch": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js --hot --inline --content-base build --port 3000",
+    "start": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js --hot --content-base build --port 3000"
   },
   "repository": {
     "type": "git",
